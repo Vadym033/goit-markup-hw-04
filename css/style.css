@@ -409,8 +409,8 @@ address {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.ourportfolio-item:hover .ourportfolio-ander-text-wrap {
-  transform: translate(0%);
+.ourportfolio-item:hover .ourportfolio-ander-text {
+  transform: translatey(0%);
 }
 
 .ourportfolio-item-border {
@@ -427,7 +427,12 @@ address {
 .ourportfolio-img {
 }
 
-.ourportfolio-ander-text-wrap {
+.ourportfolio-ander-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   position: absolute;
   display: flex;
   align-items: center;
@@ -437,14 +442,6 @@ address {
   height: 100%;
   transform: translatey(100%);
   transition: transform 300ms linear;
-}
-
-.ourportfolio-ander-text {
-  color: #f4f4fd;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .ourportfolio-subtitle {
