@@ -544,6 +544,62 @@ address {
   background-color: #31d0aa;
 }
 
+.subscribe {
+  margin-left: 80px;
+}
+
+.subscribe-par {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-bottom: 16px;
+}
+
+.footer-form {
+}
+
+.footer-label {
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: #2e2f42;
+}
+
+.input::placeholder {
+  color: #fff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.footer-btn {
+  margin-left: 24px;
+}
+
+.footer-btn-subscribe {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
 /**----------modal-backdrop-------**/
 
 .backdrop {
@@ -609,4 +665,13 @@ address {
 .modal-close-btn:hover > .modal-close-icon,
 .modal-close-btn:focus > .modal-close-icon {
   fill: #ffffff;
+}
+
+.title-modal {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-top: 72px;
 }
