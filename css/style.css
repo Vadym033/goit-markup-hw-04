@@ -571,6 +571,8 @@ address {
   border: 1px solid #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background: #2e2f42;
+  color: #ffffff;
+  padding-left: 20px;
 }
 
 .input::placeholder {
@@ -627,6 +629,7 @@ address {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 24px;
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 584px;
@@ -674,4 +677,44 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-top: 72px;
+  max-width: 360px;
+  margin-bottom: 16px;
+}
+
+.backdrop-form {
+}
+
+.form-input {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #4d5ae5;
+  margin-bottom: 8px;
+  padding-left: 20px;
+}
+
+.form-button {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  width: 105px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.form-label {
+  display: block;
+  color: #8e8f99;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
 }
